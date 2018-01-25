@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="56dp"
+
+    >
+    <ImageView
+        android:id="@+id/L"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/l"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:contentDescription="L shaped image of beach"/>
+    <ImageView
+        android:id="@+id/O"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:src="@drawable/o"
+        android:contentDescription="O shaped image of meadow"/>
+    <ImageView
+        android:id="@+id/V"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:src="@drawable/v"
+        android:contentDescription="V shaped image of mountain lake"/>
+    <ImageView
+        android:id="@+id/E"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:src="@drawable/e"
+        android:contentDescription="E shaped image of waterfall"/>
+
+
+
+</LinearLayout>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:textSize="36sp"
+        android:textColor="#4A148C"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:text="Happy Valentine's Day!"
+        />
+</RelativeLayout>
